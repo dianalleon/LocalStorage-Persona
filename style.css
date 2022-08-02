@@ -1,0 +1,14 @@
+#car2{
+    border: 0.5rem solid blue;
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
+    width: 18rem;
+    margin:10px;
+}
+
+#formularioEditar{
+
+    display: none;
+}

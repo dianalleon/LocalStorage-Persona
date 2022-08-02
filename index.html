@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <!-- Formulario -->
+      <form method="POST" id="formulario">
+        <h1 id="res" >Formulario de Personas</h1><br>
+        <div class="row">
+          <div  id="info" class="col">
+            <input type="text" id="nombre" class="form-control" placeholder="Nombre"><br>
+            <input type="text" id="cedula" class="form-control" placeholder="Cedula"><br>
+            <input type="date" id="fecha" class="form-control" placeholder="Fecha"><br>
+          </div>
+        </div>
+        <button type="submit">Guardar</button>
+      </form>
+
+      <!-- Mostrar Datos de la Persona -->
+      <div id="datos">
+        <table id="table" class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">Cedula</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Edad</th>
+              <th scope="col">Acción</th>
+            </tr>
+        </tr>
+
+          </thead>
+          
+          <tbody id="tab">
+            
+          </tbody>
+        </table>
+      </div>
+
+      <div id="car" style="width: 18rem;">
+        
+      </div>
+
+      <script src="app.js"></script>
+</body>
+
+</html>
